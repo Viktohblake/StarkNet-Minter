@@ -14,7 +14,7 @@ async def check_nft(account, address):
     global nft_wallet_counter  # Используем глобальную переменную
     to = int(address, 16)
     contract = Contract(
-        address=0x00b719f69b00a008a797dc48585449730aa1c09901fdbac1bc94b3bdc287cf76,
+        address=0x746007cdb2ebe72b4deb6d22d6a253b2d122e4ac8f0444efea1c4f6f59367ce,
         abi=CHECK_ABI,
         provider=account,
     )
