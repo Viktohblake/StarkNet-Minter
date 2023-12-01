@@ -5,7 +5,7 @@ from starknet_py.net.full_node_client import FullNodeClient
 from starknet_py.net.models.chains import StarknetChainId
 from starknet_py.net.signer.stark_curve_signer import KeyPair
 from starknet_py.contract import Contract
-import asyncio
+import asyncio 
 
 
 STARKNET_NODE = "https://starknet-mainnet.infura.io/v3/b8cee26424154a7383499cbf46bcf566"
